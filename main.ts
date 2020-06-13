@@ -25,9 +25,9 @@ function doRysowanie () {
             led.plot(kol2, 4 - wiersz)
             wiersz += 1
         }
-        serial.writeNumbers(list)
-        basic.pause(100)
     }
+    serial.writeNumbers(list)
+    basic.pause(100)
 }
 input.onButtonPressed(Button.AB, function () {
     for (let k = 0; k <= 19; k++) {
