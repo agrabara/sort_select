@@ -1,5 +1,5 @@
 {
-    "name": "sort_select",
+    "name": "sortowanie przez wybieranie",
     "description": "",
     "dependencies": {
         "core": "*",

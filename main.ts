@@ -1,3 +1,18 @@
+/**
+ * Progrsam z 10 zajęć CoderDojo-Micto:bit 
+ * zdalnie 2020.06.13 obecni: Maks, Rafał, Michał
+ * 
+ * Sortowanie przez wybieranie
+ *  https://pl.wikipedia.org/wiki/Sortowanie_przez_wybieranie
+ *  
+ * Polega na wyszukaniu elementu mającego się znaleźć na żądanej pozycji
+ *  i zamianie miejscami z tym, który jest tam obecnie. 
+ * Operacja jest wykonywana dla wszystkich indeksów sortowanej tablicy. 
+ * Algorytm przedstawia się następująco:
+ * wyszukaj minimalną wartość z tablicy spośród elementów od i do końca tablicy
+ * zamień wartość minimalną, z elementem na pozycji i
+*/
+
 input.onButtonPressed(Button.A, function () {
     for (let i = 0; i <= 18; i++) {
         minimum = i
@@ -26,8 +41,9 @@ function doRysowanie () {
             wiersz += 1
         }
     }
+// dla dużej listy prezentacja na konsoli symulatora   
     serial.writeNumbers(list)
-    basic.pause(100)
+    basic.pause(500)
 }
 input.onButtonPressed(Button.AB, function () {
     for (let k = 0; k <= 19; k++) {
